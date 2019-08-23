@@ -72,6 +72,13 @@ nav > a{
 nav > a:hover{
   color: #ccc;
  }
+ button:hover{
+   background: #A96F6F;
+ }
+ button:active{
+  background: #000;
+  color: #fff;
+}
 form{
   width: 200px;
   height: 50px;
@@ -89,10 +96,16 @@ h5{
   bottom: 6px;
   left: 20px;
 }
+.login:hover{
+  color: #9C1414;
+}
 .info{
   position: relative;
   bottom: 6px;
   left: 20px;
+}
+.info:hover{
+  color: #9C1414;
 }
 
 /* estilos del div container de los widget 1 y 2 */
