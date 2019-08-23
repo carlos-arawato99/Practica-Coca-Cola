@@ -1,0 +1,139 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: linear-gradient(to top right, #9C1414, #A96F6F, #070000);
+}
+
+/* contenedor que cubre todo el contenido donde se practica css grid */
+.contenedor{
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(4, auto); 
+  opacity: 0;
+  transition: opacity 0.5s linear 1s;
+}
+
+.contenedor-img{
+  opacity: 1;
+}
+
+/* estilos del header */
+.contenedor > header{
+  background: rgba(244, 4, 4, 0.1);
+  border-radius: 10px;
+  height: 130px;
+}
+
+ul{
+  list-style: none;
+}
+li{
+  float: left;
+  position: relative;
+  left: 70%;
+  bottom: 120px;
+}
+a{
+  padding: 6px;
+  color: #fff;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+  color: #ccc;
+}
+textarea{
+  position: relative;
+  left: 48%;
+  bottom: 100px;
+  border-radius: 5px;
+}
+button{
+  position: relative;
+  left: 48%;
+  bottom: 106px;
+  border-radius: 5px;
+}
+
+/* estilos del section menu 2  */
+section{
+  height: 40px;
+}
+nav > a{
+ color: #fff;
+}
+nav > a:hover{
+  color: #ccc;
+ }
+form{
+  width: 200px;
+  height: 50px;
+  background: #CEC6C6;
+  position: relative;
+  left: 78%;
+  bottom: 30px;
+  border-radius: 5px;
+}
+h5{
+  padding-left: 20px;
+}
+.login{
+  position: relative;
+  bottom: 6px;
+  left: 20px;
+}
+.info{
+  position: relative;
+  bottom: 6px;
+  left: 20px;
+}
+
+/* estilos del div container de los widget 1 y 2 */
+.container{
+  display: inline-block
+}
+.container > div{
+  float: left;
+}
+.widget1{
+  background: red;
+  width: 250px;
+  height: 400px;
+  color: #fff;
+  border-radius: 5px;
+}
+.widget2{
+  background: red;
+  width: 260px;
+  height: 400px;
+  color: #fff;
+  position: relative;
+  left: 49%;
+  border-radius: 5px;
+}
+.widget2 > img{
+  position: relative;
+  left: 20px;
+}
+.widget2 > a{
+  color: #ccc;
+}
+#bebida{
+  position: relative;
+  right: 220px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+/* estilo del footer */
+footer{
+  color: #fff;
+}
+
