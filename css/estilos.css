@@ -4,7 +4,7 @@
 }
 
 body{
-  background-image: linear-gradient(to top right, #FF0000, #B0B0B0, #070000);
+  background-image: linear-gradient(to top right, #FF0000, #000, #B0B0B0);
 }
 
 /* contenedor que cubre todo el contenido donde se practica css grid */
@@ -47,7 +47,7 @@ a{
 }
 a:hover{
   text-decoration: none;
-  color: #ccc;
+  color: #000;
 }
 textarea{
   position: relative;
@@ -90,7 +90,7 @@ nav > a:hover{
 form{
   width: 200px;
   height: 50px;
-  background: #CEC6C6;
+  background: rgba(250, 0, 0, 0.2);
   position: relative;
   left: 78%;
   bottom: 30px;
@@ -98,6 +98,7 @@ form{
 }
 h5{
   padding-left: 20px;
+  color: #fff;
 }
 .login{
   position: relative;
@@ -105,7 +106,7 @@ h5{
   left: 20px;
 }
 .login:hover{
-  color: #9C1414;
+  color: #000;
 }
 .info{
   position: relative;
@@ -113,7 +114,7 @@ h5{
   left: 20px;
 }
 .info:hover{
-  color: #9C1414;
+  color: #000;
 }
 
 /* estilos del div container de los widget 1 y 2 */
