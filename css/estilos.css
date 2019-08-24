@@ -41,7 +41,7 @@ li{
   bottom: 120px;
 }
 a{
-  padding: 6px;
+  padding: 45px;
   color: #fff;
   text-decoration: none;
 }
@@ -52,13 +52,13 @@ a:hover{
 textarea{
   position: relative;
   left: 48%;
-  bottom: 100px;
+  bottom: 80px;
   border-radius: 5px;
 }
 button{
   position: relative;
   left: 48%;
-  bottom: 106px;
+  bottom: 86px;
   border-radius: 5px;
 }
 .animado{
@@ -91,33 +91,40 @@ nav > a:hover{
   border: none;
 }
 form{
-  width: 200px;
-  height: 50px;
+  width: 300px;
+  height: 150px;
   background: rgba(250, 0, 0, 0.2);
   position: relative;
-  left: 78%;
+  left: 70%;
   bottom: 30px;
   border-radius: 5px;
+  font-size: 14px;
 }
-h5{
-  padding-left: 20px;
+h1{
+  padding-left: 10px;
   color: #fff;
 }
 .login{
   position: relative;
-  bottom: 6px;
-  left: 20px;
+  top: 10px;
+  right: 10px;
+
 }
 .login:hover{
   color: #000;
 }
 .info{
   position: relative;
-  bottom: 6px;
+  top: 10px;
   left: 20px;
+
 }
 .info:hover{
   color: #000;
+}
+div.imagen img{
+  position: relative;
+  top: 100px;
 }
 
 /* estilos del slogan*/
@@ -127,7 +134,7 @@ h5{
   color: #fff;
   text-align: center;
   position: relative;
-  top: 50px;
+  top: 150px;
   border-radius: 5px;
 }
 
@@ -137,7 +144,7 @@ h5{
   height: 250px;
   position: relative;
   left: 380px;
-  bottom: 240px;
+  bottom: 140px;
   border-radius: 5px;
 }
 
@@ -146,8 +153,8 @@ h5{
   height: 279px;
   background: red;
   position: relative;
-  left: 80%;
-  bottom: 495px;
+  left:797px;
+  bottom: 395px;
   text-align: center;
   color: #fff;
   border-radius: 5px;
@@ -157,53 +164,89 @@ h5{
 footer{
   color: #fff;
   position: relative;
-  bottom: 400px;
+  bottom: 100px;
 }
 
 
 @media screen and (max-width:1000px){
   body{
     background-image: url(../images/fondo2.jpg);
+    width: 100%;
   }
   header{
-    width: 900px;
+    width: 1010px;
   }
   .contenedor .header{
     background: rgba(231, 154, 154, 0.4);
   }
+  header > a{
+    padding: 40px;
+    font-size: 5px;
+    position: relative;
+    left: -100px;
+  }
+  textarea{
+    width: 200px;
+    height: 50px;
+    position: relative;
+    left: -200px;
+    top: 50px;
+  }
+  button{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    left: -200px;
+    top: 32px;
+  }
   form{
     background: rgba(210, 196, 196, 0.4);
     position: relative;
-    left: 72%;
+    left: 55%;
+    width: 400px;
+    height: 140px;
+    font-size: 23px;
+    padding-top: 10px;
+    text-align: center;
+  }
+  h1{
+    font-size: 45px;
+  }
+
+  section > a{
+    font-size: 20px;
+    position: relative;
   }
   div.imagen img{
     width: 800px;
     position: relative;
-    left: 50px;
+    left: 100px;
+    top: 120px;
   
   }
   .slogan{
    width: 800px;
    position: relative;
-   left: 50px;
+   left: 100px;
+   top: 170px;
    background-image: linear-gradient(to top right, #C82626, #200303);
   }
   #bebida{
     width: 800px;
     position: relative;
-    left: 50px;
-    top: 100px;
+    left: 100px;
+    top: 220px;
   }
   .receta{
     width: 800px;
     position: relative;
-    left: 50px;
-    top: 150px;
+    left: 100px;
+    top: 300px;
     background-image: linear-gradient(to top right, #200303, #C82626);
   }
   footer{
     position: relative;
-    top: 300px;
+    top: 350px;
     text-align: center;
   }
 }
