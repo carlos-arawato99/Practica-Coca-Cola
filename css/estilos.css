@@ -73,7 +73,7 @@ nav > a{
  color: #fff;
 }
 nav > a:hover{
-  color: #9C1414;
+  color: #ccc;
  }
  button{
    color: #fff;
@@ -163,29 +163,43 @@ footer{
 
 @media screen and (max-width:1000px){
   body{
-    background: rgba(225, 16, 16, 0.8);
+    background-image: url(../images/fondo2.jpg);
   }
-  .contenedor{
-    width: 100;
+  header{
+    width: 900px;
   }
   .contenedor .header{
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(231, 154, 154, 0.4);
+  }
+  form{
+    background: rgba(210, 196, 196, 0.4);
+    position: relative;
+    left: 72%;
+  }
+  div.imagen img{
+    width: 800px;
+    position: relative;
+    left: 50px;
+  
   }
   .slogan{
    width: 800px;
-   margin: auto;
+   position: relative;
+   left: 50px;
+   background-image: linear-gradient(to top right, #C82626, #200303);
   }
   #bebida{
     width: 800px;
     position: relative;
-    left: 100px;
+    left: 50px;
     top: 100px;
   }
   .receta{
     width: 800px;
     position: relative;
-    left: 100px;
+    left: 50px;
     top: 150px;
+    background-image: linear-gradient(to top right, #200303, #C82626);
   }
   footer{
     position: relative;
