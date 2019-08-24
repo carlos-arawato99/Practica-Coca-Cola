@@ -61,6 +61,9 @@ button{
   bottom: 106px;
   border-radius: 5px;
 }
+.animado{
+  border-radius: 10px;
+}
 
 /* estilos del section menu 2  */
 section{
