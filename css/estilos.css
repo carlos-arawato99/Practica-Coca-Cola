@@ -12,10 +12,10 @@ body{
 
 .contenedor{
   opacity: 0;
-  transition: opacity 0.5s linear 1s;
 }
 .contenedor-img{
   opacity: 1;
+  transition: opacity 0.5s linear 1s;
 }
 
 header{
