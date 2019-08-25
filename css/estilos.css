@@ -10,6 +10,14 @@ body{
   background-image: linear-gradient(to top right, #FF0000, #000, #B0B0B0);
 }
 
+.contenedor{
+  opacity: 0;
+  transition: opacity 0.5s linear 1s;
+}
+.contenedor-img{
+  opacity: 1;
+}
+
 header{
   color: #fff;
 }
@@ -33,7 +41,7 @@ header  a{
 }
 
 .submenu{
-  background: rgba(82, 6, 6, 0.9);
+  background: rgba(82, 6, 6, 0.2);
 }
 
 .submenu nav a {
@@ -66,5 +74,11 @@ header  a{
 @media screen and (max-width:1000px){
   body{
     background-image: url(../images/fondo2.jpg);
+  }
+  .logo-menu{
+    background-image: linear-gradient(to top right, #B0B0B0, #000, #ff0000);
+  }
+  .submenu{
+    background: rgba(167, 157, 157, 0.4);
   }
 }
